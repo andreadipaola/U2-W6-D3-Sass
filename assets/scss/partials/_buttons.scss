@@ -1,10 +1,9 @@
-@mixin btn($ff, $fs: $fw, $text-color, $bg-color) {
+@mixin btn($ff, $fs, $fw, $text-color) {
   font-family: $ff;
   font-size: $fs;
   font-weight: $fw;
   text-transform: uppercase;
   color: $text-color;
-  background-color: $bg-color;
   padding: 10px 20px;
   border: none;
   border-radius: 10px;
@@ -13,14 +12,16 @@
   cursor: pointer;
   &:hover {
     background-color: $text-color;
-    color: $bg-color;
     border: 1px solid $text-color;
   }
 }
 
-// @each $key, $value in $bg-colors {
-//     @include btn($ff, $fs-sm, $fw-xl, $text-color, $bg-colors);
-//   .btn-#{$key}-#{$value} {
-//     background-color: #{$value};
-//   }
-// }
+
+
+@each $key, $value in $bg-colors {
+  .btn-#{$key} {
+    @include btn($ff, $fs-sm, $fw-xl, $text-color);
+    background-color: #{$value};
+  }
+}
+

@@ -100,4 +100,80 @@
 
 .padding-inline-xxl {
   padding-inline: 32px;
+}
+
+.btn-blue {
+  font-family: "Barlow", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f4f4f4;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: inline-block;
+  cursor: pointer;
+  background-color: #0e6cff;
+}
+.btn-blue:hover {
+  background-color: #f4f4f4;
+  border: 1px solid #f4f4f4;
+}
+
+.btn-orange {
+  font-family: "Barlow", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f4f4f4;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ff8700;
+}
+.btn-orange:hover {
+  background-color: #f4f4f4;
+  border: 1px solid #f4f4f4;
+}
+
+.btn-green {
+  font-family: "Barlow", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f4f4f4;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: inline-block;
+  cursor: pointer;
+  background-color: #4caf50;
+}
+.btn-green:hover {
+  background-color: #f4f4f4;
+  border: 1px solid #f4f4f4;
+}
+
+.btn-hero {
+  font-family: "Barlow", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f4f4f4;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: inline-block;
+  cursor: pointer;
+  background-color: #640fc5;
+}
+.btn-hero:hover {
+  background-color: #f4f4f4;
+  border: 1px solid #f4f4f4;
 }/*# sourceMappingURL=style.css.map */
