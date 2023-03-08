@@ -1,0 +1,20 @@
+
+$ff: "Barlow", sans-serif;
+
+$fs-sm: 12px;
+$fs-md: 24px;
+$fs-lg: 36px;
+$fs-xl: 48px;
+$fs-xxl: 96px;
+
+$fw-sm: 400;
+$fw-md: 500;
+$fw-xl: 700;
+
+@mixin title-big($ff, $fs, $fw, $color) {
+    font-family: $ff;
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color;
+    text-transform: uppercase;   
+  }

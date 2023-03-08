@@ -1,0 +1,9 @@
+@mixin floating($border-radius: 0, $box-shadow: none, $border: none) {
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+    border: $border;
+}
+
+@mixin grid($elements) {
+    
+}

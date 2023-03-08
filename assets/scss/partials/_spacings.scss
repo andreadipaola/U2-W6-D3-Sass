@@ -1,0 +1,23 @@
+
+$properties: margin, padding;
+$types: block, inline;
+$sizes: (
+    sm: 12px,
+    normal: 16px,
+    md: 20px,
+    lg: 24px,
+    xl: 28px,
+    xxl: 32px,
+);
+
+
+@each $property in $properties {
+    @each $type in $types {
+      @each $size, $value in $sizes {
+        .#{$property}-#{$type}-#{$size} {
+            #{$property}-#{$type}:#{$value};
+        }
+      }
+    }
+  }
+
